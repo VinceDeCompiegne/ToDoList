@@ -1,0 +1,118 @@
+/*Deramaux vincent - CDA3 - 2021*/
+body{
+	width:100%;
+	height:100%;
+}
+
+/* recherche image */
+.Recherche{
+	display:block;
+	position:absolute;
+	width:300px;
+	height:600px;
+	overflow-x : false;
+	overflow: hidden visible;
+	visibility:hidden;
+	background-color:gray;
+	opacity:0.8;
+}
+.Recherche div{
+	margin-top:15px;
+	margin-left:10px;
+}
+.Image{
+	overflow: hidden visible;
+	visibility:hidden;
+	overflow-x : false;
+	height: 600px;
+	width:0px; 
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.6);
+	
+}
+#Entrer{
+	margin-left:15px;
+	margin-right:15px;
+}
+.Search{
+	margin-top:10px;
+}
+
+.Search__Span{
+	color:black;
+	background:whitesmoke;
+	opacity:0.80;
+	margin-left:10px;
+}
+.Search__Input{
+	margin-left:5px;
+	margin-right:10px;
+}
+/*Scrollbar image*/
+::-webkit-scrollbar {
+    width: 3px ;
+    background-color: transparent;
+  }
+/*/////////////////////////////////*/
+/* ToDoList //////////////////////*/
+.ToDoList{
+	display:block;
+	visibility:visible;
+	margin-left: 15px;
+	margin-right: 15px;
+	
+	
+}
+
+#ToDoList{
+
+	display:block;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+	background-color:gray;
+	opacity:0.80;
+}
+#ToDo{
+	width:340px;
+}
+.ToDo,.nbr,#ToDo__add{
+	margin-top:5px;
+	width:550px;
+	background:whitesmoke;
+	opacity:0.80;
+}
+.ToDo__Tache{
+	font-size:18px;
+	margin-left:15px;
+	font-weight: bold;
+}
+.ToDo__Date{
+	font-size:14px;
+	margin-left:15px;
+	font-style: Bold;
+	color:black;
+}
+.ToDo__Desc{
+	font-size:14px;
+	margin-left:15px;
+	font-style: italic;
+}
+.ToDo__Check i{
+	margin-right:15px;
+}
+.ToDo__Trash i{
+	margin-right:15px;
+}
+/*////////////////////////////////*/
+main{
+	display:flex;
+}
+header{
+	text-align:center;
+}
+Footer{
+	text-align:center;
+	color:thistle;
+	font-size:24px;
+}
